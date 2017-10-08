@@ -60,7 +60,6 @@ package-lock.json
 .env
 
 # rc-tools folders
-dist
 docs
 assets/**/*.css
 build
