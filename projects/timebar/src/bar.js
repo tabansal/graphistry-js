@@ -55,7 +55,7 @@ export default class Bar extends React.Component {
                     {label}
                 </span>
                 <span className="axisLabel" style={{ display: showAxisLabel ? 'block' : 'none' }}>
-                    {timestamp.format('ddd Do MMM YYYY [at] HH[:]MM')}
+                    {timestamp.format('ddd Do MMM YYYY HH[:]MM')}
                 </span>
             </div>
         );
